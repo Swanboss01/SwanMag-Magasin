@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SwanMag Magasin</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f7f7f7;
+      color: #333;
+    }
+
+    header {
+      background-color: #222;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      background: url('https://via.placeholder.com/1200x400?text=SwanMag+Bienvenue') center/cover no-repeat;
+      padding: 100px 20px;
+      text-align: center;
+      color: white;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin: 0;
+    }
+
+    .produits {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      padding: 40px 20px;
+      background-color: #fff;
+    }
+
+    .produit {
+      background-color: #fafafa;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      width: 300px;
+      margin: 15px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .produit img {
+      max-width: 100%;
+      border-radius: 5px;
+    }
+
+    .produit h3 {
+      margin: 15px 0 10px;
+    }
+
+    .about {
+      padding: 40px 20px;
+      background-color: #e8f0fe;
+      text-align: center;
+    }
+
+    footer {
+      background-color: #222;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>SwanMag Magasin</h1>
+  <nav>
+    <a href="#produits">Produits</a>
+    <a href="#about">À propos</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Bienvenue chez SwanMag</h1>
+  <p>Découvrez nos meilleurs produits et offres exclusives</p>
+</section>
+
+<section id="produits" class="produits">
+  <div class="produit">
+    <img src="https://via.placeholder.com/300x200?text=Produit+1" alt="Produit 1">
+    <h3>Produit 1</h3>
+    <p>Une description courte du produit.</p>
+    <p><strong>29,99€</strong></p>
+  </div>
+  <div class="produit">
+    <img src="https://via.placeholder.com/300x200?text=Produit+2" alt="Produit 2">
+    <h3>Produit 2</h3>
+    <p>Une autre description.</p>
+    <p><strong>45,00€</strong></p>
+  </div>
+  <div class="produit">
+    <img src="https://via.placeholder.com/300x200?text=Produit+3" alt="Produit 3">
+    <h3>Produit 3</h3>
+    <p>Encore un excellent choix !</p>
+    <p><strong>15,99€</strong></p>
+  </div>
+</section>
+
+<section id="about" class="about">
+  <h2>À propos de SwanMag</h2>
+  <p>SwanMag Magasin est une boutique dédiée à la qualité et à la satisfaction client. Nous sélectionnons nos produits avec soin pour répondre à vos besoins au quotidien.</p>
+</section>
+
+<footer id="contact">
+  <p>Contactez-nous à : contact@swanmag.fr | Téléphone : +33 1 23 45 67 89</p>
+  <p>&copy; 2025 SwanMag Magasin - Tous droits réservés</p>
+</footer>
+
+</body>
+</html>
