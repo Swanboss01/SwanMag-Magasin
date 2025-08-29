@@ -1,6 +1,6 @@
 <?php
 $token = $_POST['cf-turnstile-response'];
-$secret = 'TA_CLE_SECRETE_ICI'; // Remplace par ta vraie clé secrète
+$secret = '0x4AAAAAABrnX5uWT768q2TcRfnnxpC09-0'; // Remplace par ta vraie clé secrète
 
 $response = file_get_contents("https://challenges.cloudflare.com/turnstile/v0/siteverify", false, stream_context_create([
     'http' => [
